@@ -13,3 +13,8 @@
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
     left: 0!important;
 }
+
+/*哔哩哔哩视频适配*/
+iframe {
+    border-radius: 10px;
+}
