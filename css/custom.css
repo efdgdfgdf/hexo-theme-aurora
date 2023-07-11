@@ -18,3 +18,58 @@
 iframe {
     border-radius: 10px;
 }
+
+/* valine 评论 */
+.v[data-class=v] .emoji,
+.v[data-class=v] .vemoji {
+    vertical-align: text-bottom;
+}
+
+.v[data-class=v] .vwrap .vemojis {
+    max-height: 260px !important;
+}
+
+.v[data-class=v] .vwrap .vemojis i[title|=HONKAI3] {
+    width: 22% !important;
+    margin: 5px 10px;
+}
+
+.v[data-class=v] .vwrap .vemojis img[alt|=HONKAI3] {
+    max-width: 100% !important;
+}
+
+.v[data-class=v] .vcontent .emoji[alt|=HONKAI3],
+.v[data-class=v] .vcontent .vemoji[alt|=HONKAI3] {
+    max-width: 300px !important;
+    /* vertical-align: middle; */
+    margin: 8px 1px;
+    display: block !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .v[data-class=v] .vwrap .vemojis i[title|=HONKAI3] {
+        margin: 5px 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .v[data-class=v] .vcontent .emoji[alt|=HONKAI3],
+    .v[data-class=v] .vcontent .vemoji[alt|=HONKAI3] {
+        max-width: calc(100% - 30px) !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .v[data-class=v] .vwrap .vemojis {
+        max-height: 200px !important;
+    }
+    .v[data-class=v] .vwrap .vemojis i[title|=HONKAI3] {
+        margin: 5px 5px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .v[data-class=v] .vwrap .vemojis i[title|=HONKAI3] {
+        width: 21% !important;
+    }
+}
