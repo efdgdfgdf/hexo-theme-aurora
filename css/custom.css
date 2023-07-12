@@ -29,17 +29,20 @@ iframe {
     max-height: 260px !important;
 }
 
-.v[data-class=v] .vwrap .vemojis i[title|=HONKAI3] {
+.v[data-class=v] .vwrap .vemojis i[title|=HONKAI3],
+.v[data-class=v] .vwrap .vemojis i[title|=Snow] {
     width: 22% !important;
     margin: 5px 10px;
 }
 
-.v[data-class=v] .vwrap .vemojis img[alt|=HONKAI3] {
+.v[data-class=v] .vwrap .vemojis img[alt|=HONKAI3],
+.v[data-class=v] .vwrap .vemojis img[alt|=Snow] {
     max-width: 100% !important;
 }
 
 .v[data-class=v] .vcontent .emoji[alt|=HONKAI3],
-.v[data-class=v] .vcontent .vemoji[alt|=HONKAI3] {
+.v[data-class=v] .vcontent .vemoji[alt|=HONKAI3],
+.v[data-class=v] .vcontent .emoji[alt|=Snow], .v[data-class=v] .vcontent .vemoji[alt|=Snow] {
     max-width: 300px !important;
     /* vertical-align: middle; */
     margin: 8px 1px;
@@ -47,14 +50,17 @@ iframe {
 }
 
 @media screen and (max-width: 1200px) {
-    .v[data-class=v] .vwrap .vemojis i[title|=HONKAI3] {
+    .v[data-class=v] .vwrap .vemojis i[title|=HONKAI3],
+    .v[data-class=v] .vwrap .vemojis i[title|=Snow] {
         margin: 5px 8px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .v[data-class=v] .vcontent .emoji[alt|=HONKAI3],
-    .v[data-class=v] .vcontent .vemoji[alt|=HONKAI3] {
+    .v[data-class=v] .vcontent .vemoji[alt|=HONKAI3],
+    .v[data-class=v] .vcontent .emoji[alt|=Snow],
+    .v[data-class=v] .vcontent .vemoji[alt|=Snow] {
         max-width: calc(100% - 30px) !important;
     }
 }
@@ -63,13 +69,15 @@ iframe {
     .v[data-class=v] .vwrap .vemojis {
         max-height: 200px !important;
     }
-    .v[data-class=v] .vwrap .vemojis i[title|=HONKAI3] {
+    .v[data-class=v] .vwrap .vemojis i[title|=HONKAI3],
+    .v[data-class=v] .vwrap .vemojis i[title|=Snow] {
         margin: 5px 5px;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .v[data-class=v] .vwrap .vemojis i[title|=HONKAI3] {
+    .v[data-class=v] .vwrap .vemojis i[title|=HONKAI3],
+    .v[data-class=v] .vwrap .vemojis i[title|=Snow] {
         width: 21% !important;
     }
 }
